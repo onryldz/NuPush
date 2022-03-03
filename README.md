@@ -6,7 +6,7 @@ Steps:
 
 1- You need to add this powershell script’s path in your environment variables.
 
-2- Open a terminal on your windows, and go to the your project folder and write nugetPush
+2- Open a terminal on your windows, and go to the your project solution folder and write `nuPush` then press enter.
 
 3- You will see all of the project list with the version
 
