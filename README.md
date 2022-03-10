@@ -16,9 +16,9 @@ Steps:
 
 6- When you select the nugget source, it will start to upload it.
 
-
 ### Linux/Debian Instructions
-* `export PATH=$PATH:nupushPathOnYourComputer` *(e.g. export PATH=$PATH:/home/onur/dev/nuPush)*
+* You need to edit the `~/.bashrc` file to permanently add environment variables. Add this command to the last line.
+  - `export PATH=$PATH:nupushPathOnYourComputer` *(e.g. export PATH=$PATH:$HOME/dev/nuPush)*
+  - You have to execute this command to run the unit test.
+    * `export NUPUSH_RUN_UNITTEST="true"`
 * `sudo chmod +x nuPush`
-* You have to execute this command to run the unit test.
-  - `export NUPUSH_RUN_UNITTEST="true"`
