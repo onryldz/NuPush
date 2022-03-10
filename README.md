@@ -4,7 +4,7 @@ Nuget Package Push Manager (cli)
 This package helps to manage your nuget versions easily. When you have many projects under a solution, you can see each project and current version of it. 
 Steps:
 
-1- You need to add this powershell script’s path in your environment variables.
+1- You need to add this `powershell`/`bash` script’s path in your environment variables.
 
 2- Open a terminal on your windows, and go to the your project solution folder and write `nuPush` then press enter.
 
